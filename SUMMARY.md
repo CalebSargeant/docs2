@@ -11,5 +11,6 @@
       * [02. Explaining Common Threats & Protecting Humans from Attacks](networking/security/security-concepts/02-explaining-common-threats-and-protecting-humans-from-attacks.md)
       * [03. Describing Security Intelligence](networking/security/security-concepts/03-describing-security-intelligence.md)
       * [04. Explaining and Interpreting APIs](networking/security/security-concepts/04-explaining-and-interpreting-apis.md)
+    * [Network Security Fundamentals](networking/security/network-security-fundamentals/README.md)
 * [Python](python/README.md)
   * [Object and Data Structures](python/object-and-data-structures.md)
