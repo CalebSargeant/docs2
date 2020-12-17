@@ -10,8 +10,7 @@ Flaw in computer program that causes the program to behave in a way that was not
 
 ### Buffer Overflow
 
-A Buffer is a reservation of memory for a specific size.
-An Overflow is when the size of data is greater than the reservation.
+A Buffer is a reservation of memory for a specific size. An Overflow is when the size of data is greater than the reservation.
 
 ## Weak Passwords & Hard Coded Passwords
 
@@ -19,7 +18,7 @@ An Overflow is when the size of data is greater than the reservation.
 
 * Complex and long
 * 12 to 16 character minimum
-* A-Z, a-z, 0-9, !@#$%
+* A-Z, a-z, 0-9, !@\#$%
 
 Also:
 
@@ -32,6 +31,7 @@ Also:
 Passwords embedded in software code. Once attacker knows the password, they can compromise any system that uses the program.
 
 **Mitigations:**
+
 * Store passwords outside of application in encrypted file
 * Could prompt for initial password
 * Match against hashes, not the actual password
@@ -54,9 +54,10 @@ If data is missing encryption, it leaves the data exposed
 
 ## Path Traversal
 
-Allows attacker to navigate outside of original directory (www.test.com/../../etc/password.file). Attacker can use error messages to figure out the structure.
+Allows attacker to navigate outside of original directory \(www.test.com/../../etc/password.file\). Attacker can use error messages to figure out the structure.
 
 **Mitigations:**
+
 * Work without user input if possible
 * Blacklist special characters
 * Mask the structure by using indexes
@@ -72,6 +73,7 @@ Allows attacker to navigate outside of original directory (www.test.com/../../et
 * Impacts can be severe
 
 **Impact:**
+
 * Successful attack can reveal usernames and passwords, PII, and sensitive corporate info.
 * Can modify data
   * Create additional accounts
@@ -80,3 +82,4 @@ Allows attacker to navigate outside of original directory (www.test.com/../../et
   * Attacker can remove necessary files
 
 ## Cross Site Scripting & Cross Site Forgery Request
+

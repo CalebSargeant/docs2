@@ -1,6 +1,6 @@
 # 02. Explaining Common Threats & Protecting Humans from Attacks
 
-## Viruses, Trojans, & Othjer Malware
+## Viruses, Trojans, & Other Malware
 
 ### Malware: Malicious Software
 
@@ -89,16 +89,18 @@
 * Social engineering attack that uses electronic communications
 
 **Types:**
+
 * Bulk Phishing
-  * Not a specific target (Generic)
+  * Not a specific target \(Generic\)
 * Spear Phishing
-  * Specific target (a lot of research)
+  * Specific target \(a lot of research\)
 * Whaling
   * Spear phishing targeting high profile targets
 * Clone Phishing
   * Attacker clones logos of legitimate services
 
 **Methods:**
+
 * Link manipulation
 * Realistic websites
   * www.titlecompany.updated-wiretransfer.com
@@ -186,6 +188,7 @@ Identify threats, research solutions, and implement mitigations for every threat
 Device upload data to network/Cloud
 
 **Scenario:**
+
 * Threat affects organisation
 * Device now has info on threat
 * Info is uploaded to cloud
@@ -218,9 +221,13 @@ Device upload data to network/Cloud
 * Defence in depth
 
 **Cisco Products that use Talos:**
+
 * NGFW & NGIPS
 * Cisco AMP
 * Email Security Appliance, Web Security Appliance
 * Cloud Email Security, Cloud Web Security
 * Cisco Umbrella
 * Cisco Threat Grid
+
+![Here you can see Legitimate Email, Spam &amp; Malware colour-coded](../../../.gitbook/assets/screenshot-2020-12-17-at-11.04.59.png)
+
