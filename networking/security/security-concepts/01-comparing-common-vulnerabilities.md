@@ -83,3 +83,28 @@ Allows attacker to navigate outside of original directory \(www.test.com/../../e
 
 ## Cross Site Scripting & Cross Site Forgery Request
 
+### Cross Site Scripting
+
+* Inject malicious code in order to control behavior of the site
+* Embed the code in a link
+  * Attacker sends the link to the victim
+  * Can shorten the URL to disguise it
+* Persistent XSS
+  * Changes the code on the server
+  * Each visitor that visits the site runs the malicious code
+
+**Mitigations:**
+* Use a security encoding library
+* Don't allow untrusted data in vulnerable areas of website code
+
+### Cross Site Forgery Request
+
+* Takes advantage of legitimate Cross Site Requests
+  * Causes victim to run actions on an already authenticated session
+  * Runs code in the background unbeknownst to the victim
+  * May transfer money from an online bank
+
+**Mitigations:**
+* Mitigate XSS
+* Secure random tokens
+* Have users utilise a browser that supports SameSite cookie attributes
