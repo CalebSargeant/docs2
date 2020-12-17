@@ -12,5 +12,12 @@
       * [03. Describing Security Intelligence](networking/security/security-concepts/03-describing-security-intelligence.md)
       * [04. Explaining and Interpreting APIs](networking/security/security-concepts/04-explaining-and-interpreting-apis.md)
     * [Network Security Fundamentals](networking/security/network-security-fundamentals/README.md)
+      * [01. Comparing Networking Security Solutions & Deployment Models](networking/security/network-security-fundamentals/01.-comparing-networking-security-solutions-and-deployment-models.md)
+      * [02. Describing Components, Capabilities, & Benefits of NetFlow](networking/security/network-security-fundamentals/02.-describing-components-capabilities-and-benefits-of-netflow.md)
+      * [03. Securing the Management Plane](networking/security/network-security-fundamentals/03.-securing-the-management-plane.md)
+      * [04. Securing the Control Plane and Data Plane on Cisco Routers](networking/security/network-security-fundamentals/04.-securing-the-control-plane-and-data-plane-on-cisco-routers.md)
+      * [05. Securing the Control Plane and Data Plane on Cisco Switches](networking/security/network-security-fundamentals/05.-securing-the-control-plane-and-data-plane-on-cisco-switches.md)
+      * [06. Configuring Wireless LAN Controller Device Hardening Methods](networking/security/network-security-fundamentals/06.-configuring-wireless-lan-controller-device-hardening-methods.md)
 * [Python](python/README.md)
   * [Object and Data Structures](python/object-and-data-structures.md)
+

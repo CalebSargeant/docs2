@@ -1,15 +1,16 @@
-# 04. Explaining & Interpreting APIs
+# 04. Explaining and Interpreting APIs
 
 ## HTTP Basics & APIs
 
 ### HTTP Communication
 
-* HTTP GET (show data)
-* HTTP POST (create data)
-* HTTP PUT (modify data)
-* HTTP Delete (delete data)
+* HTTP GET \(show data\)
+* HTTP POST \(create data\)
+* HTTP PUT \(modify data\)
+* HTTP Delete \(delete data\)
 
 **Contents of HTTP:**
+
 * Headers contain metadata
   * Authentication
   * Payload formatting
@@ -27,9 +28,10 @@
 
 ### API
 
-Application Programming Interface (Set of specific operations that are built for the standardized management of a system)
+Application Programming Interface \(Set of specific operations that are built for the standardized management of a system\)
 
 **RESTful API:**
+
 * Architectual Style
 * Stateless
 * Works nicely with HTTP
@@ -42,9 +44,10 @@ Application Programming Interface (Set of specific operations that are built for
 * Automatic provisioning and optimizing
 
 **Three types of devices:**
-* Controller (talk with other devices (south) & applications (north))
-* Devices (south-bound communication)
-* Application (north-bound communication)
+
+* Controller \(talk with other devices \(south\) & applications \(north\)\)
+* Devices \(south-bound communication\)
+* Application \(north-bound communication\)
 
 ## Using DNA Center APIs to Provision, Optimize, Monitor & Troubleshoot
 
@@ -52,17 +55,17 @@ Application Programming Interface (Set of specific operations that are built for
 
 Digital Network Architecture Centre
 
-* Quickly provision and administer devices (also using plug and play)
+* Quickly provision and administer devices \(also using plug and play\)
 * Health of network
 * Deploy new devices and create new fabrics
 
-![Authorization header (notice the URL of API call)](images/api1.png)
+![Authorization header \(notice the URL of API call\)](../../../.gitbook/assets/api1.png)
 
-![Content Type is JSON for this API call](images/api2.png)
+![Content Type is JSON for this API call](../../../.gitbook/assets/api2.png)
 
-![We did a POST to get the auth token](images/api3.png)
+![We did a POST to get the auth token](../../../.gitbook/assets/api3.png)
 
-![We did a get to list our devices (notice the URL of API call)](images/api4.png)
+![We did a get to list our devices \(notice the URL of API call\)](../../../.gitbook/assets/api4.png)
 
 ## Using Python to Connect to Firepower's API
 
@@ -71,6 +74,7 @@ Digital Network Architecture Centre
 * Use a script that Cisco created
 
 `simple_client.py` to interact with FTD:
+
 ```python
 import requests
 import json
@@ -127,9 +131,10 @@ class FTDClient:
     return self.bravado_client
 ```
 
-![In Firepower, you'll see no objects, let's add one](images/api-ftd1.png)
+![In Firepower, you&apos;ll see no objects, let&apos;s add one](../../../.gitbook/assets/api-ftd1.png)
 
 Adding an object to firepower:
+
 ```python
 from simple_client import FTDClient
 client = FTDClient(address='10.10.20.65', port=443, username='admin', password='Cisco1234')
@@ -141,12 +146,13 @@ APINetObject = NetworkObject(name='APITestObject', subType='HOST', value='1.1.1.
 bravClient.NetworkObject.addNetworkObject(body=APINetObject).result()
 ```
 
-![You'll now see the object created in Firepower](images/api-ftd2.png)
+![You&apos;ll now see the object created in Firepower](../../../.gitbook/assets/api-ftd2.png)
 
 ## Additional Phython API Scripts
 
 Get users from Cisco ISE:
-```py
+
+```python
 import http.client
 import base64
 import ssl
@@ -179,7 +185,8 @@ print("Body:\n{}".format(data.decode("utf-8")))
 ```
 
 Print all event IDs in Cisco AMP:
-```py
+
+```python
 import requests
 
 client_id = '4d69c78ac2db6644d0f2'
@@ -193,3 +200,4 @@ event_ids = response.json()
 
 print(event_ids)
 ```
+

@@ -67,12 +67,13 @@ Device upload data to network/Cloud
 * Cisco Umbrella
 * Cisco Threat Grid
 
-![Here you can see Legitimate Email, Spam &amp; Malware colour-coded](images/talos1.png)
+![Here you can see Legitimate Email, Spam &amp; Malware colour-coded](../../../.gitbook/assets/talos1.png)
 
-![Vulnerability Reports showing summary of the report](images/talos2.png)
+![Vulnerability Reports showing summary of the report](../../../.gitbook/assets/talos2.png)
 
-![Vulnerability Reports showing the severity of threat](images/talos3.png)
+![Vulnerability Reports showing the severity of threat](../../../.gitbook/assets/talos3.png)
 
-![Vulnerability Reports showing details of how threat works](images/talos4.png)
+![Vulnerability Reports showing details of how threat works](../../../.gitbook/assets/talos4.png)
 
-![See the reputation for different things, like IP and Domain Reputation and File Reputation](images/talos5.png)
+![See the reputation for different things, like IP and Domain Reputation and File Reputation](../../../.gitbook/assets/talos5.png)
+

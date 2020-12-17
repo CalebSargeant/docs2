@@ -94,6 +94,7 @@ Allows attacker to navigate outside of original directory \(www.test.com/../../e
   * Each visitor that visits the site runs the malicious code
 
 **Mitigations:**
+
 * Use a security encoding library
 * Don't allow untrusted data in vulnerable areas of website code
 
@@ -105,6 +106,8 @@ Allows attacker to navigate outside of original directory \(www.test.com/../../e
   * May transfer money from an online bank
 
 **Mitigations:**
+
 * Mitigate XSS
 * Secure random tokens
 * Have users utilise a browser that supports SameSite cookie attributes
+
