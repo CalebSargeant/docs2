@@ -207,3 +207,20 @@ Device upload data to network/Cloud
 * Mo manual input required
 * Provides research and info to security professionals
 * Allows you to stay in the loop of the new types of threats that are emerging
+
+## Cisco Talos
+
+* 1.1 million malicious software samples
+* 300 billion email samples, 200 billion are malicious
+* Block malware, phishing, and spam
+* Need to have the appropriate license
+  * Create policy and ruleset
+* Defence in depth
+
+**Cisco Products that use Talos:**
+* NGFW & NGIPS
+* Cisco AMP
+* Email Security Appliance, Web Security Appliance
+* Cloud Email Security, Cloud Web Security
+* Cisco Umbrella
+* Cisco Threat Grid
