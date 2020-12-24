@@ -18,6 +18,11 @@
       * [04. Securing the Control Plane and Data Plane on Cisco Routers](networking/security/network-security-fundamentals/04.-securing-the-control-plane-and-data-plane-on-cisco-routers.md)
       * [05. Securing the Control Plane and Data Plane on Cisco Switches](networking/security/network-security-fundamentals/05.-securing-the-control-plane-and-data-plane-on-cisco-switches.md)
       * [06. Configuring Wireless LAN Controller Device Hardening Methods](networking/security/network-security-fundamentals/06.-configuring-wireless-lan-controller-device-hardening-methods.md)
+    * [Network Security with Cisco IOS](networking/security/network-security-with-cisco-ios/README.md)
+      * [1. Securely Managing Cisco IOS Devices](networking/security/network-security-with-cisco-ios/1.-securely-managing-cisco-ios-devices.md)
+      * [2. Configuring AAA on Cisco IOS Device for Use with Cisco ISE](networking/security/network-security-with-cisco-ios/2.-configuring-aaa-on-cisco-ios-device-for-use-with-cisco-ise.md)
+      * [3. Configuring Management Protocols on a Cisco IOS Device](networking/security/network-security-with-cisco-ios/3.-configuring-management-protocols-on-a-cisco-ios-device.md)
+      * [4. Managing Cisco IOS Devices with Cisco Prime Infrastructure](networking/security/network-security-with-cisco-ios/4.-managing-cisco-ios-devices-with-cisco-prime-infrastructure.md)
 * [Python](python/README.md)
   * [Object and Data Structures](python/object-and-data-structures.md)
 
