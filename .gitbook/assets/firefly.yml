@@ -1,0 +1,39 @@
+---
+FF_FRONTEND_IP: 10.0.3.10
+
+# fireflynet docker network variables
+FFNET_NAME: fireflyiiinet
+FFNET_SUBNET: 172.4.0.0/29
+FFNET_GW: 172.4.0.1
+
+# fireflyiiidb docker container variables
+FFDB_NAME: fireflyiiidb
+FFDB_IP: 172.4.0.2
+FFDB_PORT: "3306"
+FFDB_IMAGE: yobasystems/alpine-mariadb:latest
+MYSQL_PASSWORD: 'YrXK8xGyTM2G4AN7DnRVVf7p3zASXb'
+
+# fireflyiii container variables
+FF_NAME: fireflyiiiapp
+FF_IP: 172.4.0.3
+FF_PORT: "8080"
+FF_IMAGE: jc5x/firefly-iii:latest@27ea1a01907e
+
+# fireflyiiicsv
+# FIREFLY_ACCESS_TOKEN must be found under Profile section in settings after deploying fireflyiii container in web gui
+FFCSV_NAME: fireflyiiicsv
+FFCSV_IP: 172.4.0.4
+FFCSV_PORT: "8081"
+FFCSV_IMAGE: fireflyiii/csv-importer:latest@fc2f2f118678
+FFCSV_URI: http://{{ FF_IP }}:8080
+FIREFLY_ACCESS_TOKEN: eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiNGI4MjY3ZDNjMjAxZjE1N2FmNWUyZWU1NjIzZmQyZGQxMjc2MmZjYjA4MWM2Y2ZlYWRmNmMzYmNmZTcwMzQ3YTkyZmVjZmJhYTcxZDA1MTAiLCJpYXQiOjE2MDU1MjM1NDcsIm5iZiI6MTYwNTUyMzU0NywiZXhwIjoxNjM3MDU5NTQ0LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.fKZtIhyLo9q6UioaD2auVDD1REYfpJa5EVQxM63REFIJOBjsL5OVsMb1zvvNd07QkVMVzFbS-4qFS0YQCH_eEWBU8l1qnv_MAqth-zPjjbcRs7GKFHJ54QRamwqyVrXJNCMrWLde77FZhH6TAHJYbEugT3rV30yrBsPj0fPyT6Xv4Yi45M21SCTuzwGmhPGVHmuXFYRe5al3alDqAs6DbJg5qI0pLLXZ6WJBN9B1-wcBKipltM6ghdPJyDZGz1givrSybjpDSkXHenHfIPskVvROPq5xT6A3lDyOkYsZtqoOGFyFIk01pZZI61yVvOOHsPnTjQUMnMo1J5BmzBENJYsvU5swKiWBRX4EoUDfL8s7QI0aXh-qNPaE82W0nFgS6Cnh-3Ww6crtSQcAXSDU7LcfVjHWYWvmYSPLqQCp5N5E9U2tD0q1GJjbwUEcRa5eGfA2RDZU_XTQUlkH1HlV46uy862gxIomUMuwOIPIwQ1tGpSyBBKKFiw_XPPU2a_a1KTaP6U6_f512GG3Dq-bCOWYTimSu-PokZCWvYxGyLpNH25Y_hTHDl3fCBzjNwLyXZ212SJ5oVLQFfA4NU2JptZob15APiipt_WG9YzhwFX2uwrtVk0f9XzA-icwxA8SKpIEjIKQ8fLeTW0zkb2tvTTyadeiYoZUD3thOjHXa7o
+
+# fireflyiii container env vars
+APP_KEY: HsDM#gPZ%Q6eq2#mN%nxU4acQpNFwbCM
+MAIL_HOST: smtp.gmail.com
+MAIL_PORT: "465"
+MAIL_FROM: firefly@sargeant.co
+MAIL_USERNAME: calebsargeant@gmail.com
+MAIL_PASSWORD: jtzjxyswskpnzqfu
+MAIL_ENCRYPTION: ssl
+...
