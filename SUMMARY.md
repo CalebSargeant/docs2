@@ -33,6 +33,13 @@
       * [2. Configuring AAA on an FTD Appliance for Use with Cisco ISE](networking/security/network-security-with-cisco-firepower/2.-configuring-aaa-on-an-ftd-appliance-for-use-with-cisco-ise.md)
       * [3. Configuring Management Protocols on a Cisco Firepower](networking/security/network-security-with-cisco-firepower/3.-configuring-management-protocols-on-a-cisco-firepower.md)
       * [4. Managing Multiple Firepowers with Cisco Firepower Management Center](networking/security/network-security-with-cisco-firepower/4.-managing-multiple-firepowers-with-cisco-firepower-management-center.md)
+    * [Describing and Configuring VPNs](networking/security/describing-and-configuring-vpns/README.md)
+      * [1. Comparing Cryptography Components](networking/security/describing-and-configuring-vpns/1.-comparing-cryptography-components.md)
+      * [2. Comparing Cisco VPN Types](networking/security/describing-and-configuring-vpns/2.-comparing-cisco-vpn-types.md)
+      * [3. Configuring DMVPN](networking/security/describing-and-configuring-vpns/3.-configuring-dmvpn.md)
+      * [4. Configuring FlexVPN](networking/security/describing-and-configuring-vpns/4.-configuring-flexvpn.md)
+      * [5. Configuring Cisco AnyConnect on the ASA](networking/security/describing-and-configuring-vpns/5.-configuring-cisco-anyconnect-on-the-asa.md)
+      * [6. Configuring Cisco AnyConnect on the FTD](networking/security/describing-and-configuring-vpns/6.-configuring-cisco-anyconnect-on-the-ftd.md)
 * [Python](python/README.md)
   * [Object and Data Structures](python/object-and-data-structures.md)
 
