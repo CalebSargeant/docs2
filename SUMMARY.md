@@ -68,3 +68,8 @@
     * [Securing the Cloud](networking/cisco-core-security/securing-the-cloud.md)
 * [Python](python/README.md)
   * [Object and Data Structures](python/object-and-data-structures.md)
+* [Other](other/README.md)
+  * [General](other/general/README.md)
+    * [Documentation](other/general/documentation.md)
+    * [Host Setup](other/general/host-setup.md)
+
